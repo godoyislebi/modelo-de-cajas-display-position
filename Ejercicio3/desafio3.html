@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 3</title>
+    <style media="screen" type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .col{
+            display: flex;
+            justify-content: center;
+        }
+        /* España */
+        .spain{
+            border: 1px solid black;
+            width: 300px;
+            margin: 20px;
+            display: inline-block;
+        }
+        .spain__box-red{
+            height: 50px;
+            background-color: red;
+        }
+        .spain__box-yellow{
+            height: 100px;
+            background-color: yellow;
+        }
+        /* Japón*/
+        .japan{
+            border: 1px solid black;
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .japan__circule{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: red;
+        }
+        /* Dinamarca */
+        .denmark{
+            border: 1px solid black;
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            background-color: red;
+            display: flex;
+            position: relative; 
+        }
+        .denmark__line-1{
+            width: 20px;
+            height: 200px;
+            background-color: white;
+            position: absolute;
+            left: 80px;
+        }
+        .denmark__line-2{
+            width: 300px;
+            height: 20px;
+            background-color: white;
+            position: absolute;
+            top: 90px;
+        }
+        /* Emiratos Árabes */
+        .emirates{
+            border: 1px solid black;
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            display: flex;
+        }
+        .emirates__red-line{
+            flex-direction: row;
+            width: 66px;
+            height: 200px;
+            background-color: red;
+        }
+        .emirates__colors{
+            flex-direction: column;
+        }
+        .emirates__green-line{
+            height: 66.6px;
+            background-color: green;
+            width: 234px;
+        }
+        .emirates__whithe-line{
+            height: 66.6px;
+            background-color: white;
+            width: 234px;
+        }
+        .emirates__black-line{
+            height: 66.6px;
+            background-color: black;
+            width: 234px;
+        }
+    </style>
+</head>
+
+<body>
+   <div class="col">
+        <!-- España --> 
+    <section class="spain">
+        <div class="spain__box-red"></div>
+        <div class="spain__box-yellow"></div>
+        <div class="spain__box-red"></div>
+    </section>
+
+        <!-- Dinamarca -->
+    <section class="denmark">
+        <div class="denmark__line-1"></div>
+        <div class="denmark__line-2"></div>
+    </section>
+   </div>
+
+   <div class="col"> 
+        <!-- Emiratos Árabes-->
+    <section class="emirates">
+        <div class="emirates__red-line"></div>
+        <div class="emirates__colors">
+            <div class="emirates__green-line"></div>
+            <div class="emirates__whithe-line"></div>
+            <div class="emirates__black-line"></div>
+        </div>
+    </section>
+
+        <!-- Japón-->
+    <section class="japan">
+        <div class="japan__circule"></div>
+    </section>
+   </div>
+   
+</body>

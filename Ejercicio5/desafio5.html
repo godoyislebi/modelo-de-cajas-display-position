@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5</title>
+    <style media="screen" type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        .section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .product{
+            width: 300px;
+            height: auto;
+            position: relative;
+        }
+        .offer{
+            position: absolute;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <img class="offer" src="ejercicio-5_ribbon.png" alt="">
+        <img class="product" src="ejercicio-5_item.jpg" alt="">
+    </section>
+</body>
+</html>
